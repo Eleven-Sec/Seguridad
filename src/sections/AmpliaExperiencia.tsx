@@ -185,7 +185,7 @@ export default function AmpliaExperiencia() {
           >
             <div ref={imageInnerRef} className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1560472355-536de3962603?w=800&q=80"
+                src="https://lh3.googleusercontent.com/u/0/d/1c8zU47crmV5jmNRJ5MShNWF77kGMhoeh=w1920-h1080"
                 alt="Experiencia Eleven Seguridad"
                 className="w-full h-[500px] lg:h-[600px] object-cover"
               />
