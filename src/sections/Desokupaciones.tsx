@@ -64,7 +64,7 @@ export default function Desokupaciones() {
     >
       {/* Background with gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a0a0a] to-black" />
-      
+
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#00d4ff]/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#00d4ff]/3 rounded-full blur-3xl" />
@@ -78,7 +78,7 @@ export default function Desokupaciones() {
             </div>
 
             {/* Heading */}
-            <h2 
+            <h2
               className="heading-lg mb-6 text-white content-item"
               style={{ fontFamily: 'Orbitron, sans-serif' }}
             >
@@ -87,14 +87,14 @@ export default function Desokupaciones() {
 
             {/* Description */}
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto content-item">
-              Servicio especializado en recuperación de inmuebles ocupados. 
+              Servicio especializado en recuperación de inmuebles ocupados.
               Gestión legal integral con resultados garantizados.
             </p>
 
             {/* Features */}
             <div className="flex flex-wrap justify-center gap-6 mb-12 content-item">
               {features.map((feature, index) => (
-                <div 
+                <div
                   key={index}
                   className="flex items-center space-x-2 text-gray-400"
                 >
@@ -107,7 +107,7 @@ export default function Desokupaciones() {
             {/* Dynamic CTA Button */}
             <a
               ref={buttonRef}
-              href="https://desokupaciones.elevenseguridad.com"
+              href="https://desokupa24h.com"
               target="_blank"
               rel="noopener noreferrer"
               onMouseEnter={() => setIsHovered(true)}
@@ -122,8 +122,8 @@ export default function Desokupaciones() {
                 ${isHovered ? 'scale-105 shadow-2xl' : 'scale-100 shadow-lg'}
               `}
               style={{
-                boxShadow: isHovered 
-                  ? '0 0 60px rgba(0, 212, 255, 0.6), 0 20px 40px rgba(0, 0, 0, 0.4)' 
+                boxShadow: isHovered
+                  ? '0 0 60px rgba(0, 212, 255, 0.6), 0 20px 40px rgba(0, 0, 0, 0.4)'
                   : '0 0 30px rgba(0, 212, 255, 0.3)'
               }}
             >
