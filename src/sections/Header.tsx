@@ -71,8 +71,8 @@ export default function Header() {
     <header
       ref={headerRef}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-          ? 'bg-black/95 backdrop-blur-xl border-b border-white/5 py-3'
-          : 'bg-transparent py-5'
+        ? 'bg-black/95 backdrop-blur-xl border-b border-white/5 py-3'
+        : 'bg-transparent py-5'
         }`}
     >
       <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-16">
@@ -87,7 +87,7 @@ export default function Header() {
               <img
                 src="https://lh3.googleusercontent.com/u/0/d/1laV3lnuQJhClF0DTSRVoZIvWuMcpn3uL=w400"
                 alt="Eleven Seguridad"
-                className="h-8 sm:h-10 w-auto object-contain"
+                className="h-14 sm:h-20 w-auto object-contain"
               />
             </a>
           </div>
