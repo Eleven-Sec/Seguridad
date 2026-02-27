@@ -87,7 +87,7 @@ export default function Header() {
               <img
                 src="https://lh3.googleusercontent.com/u/0/d/1Kdq3BTdpDK7YyJaMWWLya4SIH4nZs_QQ=w800"
                 alt="Eleven Seguridad"
-                className="h-32 sm:h-48 w-auto object-contain"
+                className="h-10 sm:h-14 w-auto object-contain"
               />
             </a>
           </div>
