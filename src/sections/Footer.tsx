@@ -108,7 +108,7 @@ export default function Footer() {
               onClick={(e) => { e.preventDefault(); scrollToSection('#inicio'); }}
             >
               <img
-                src="https://lh3.googleusercontent.com/u/0/d/1laV3lnuQJhClF0DTSRVoZIvWuMcpn3uL=w400"
+                src="https://lh3.googleusercontent.com/u/0/d/1Kdq3BTdpDK7YyJaMWWLya4SIH4nZs_QQ=w800"
                 alt="Eleven Seguridad"
                 className="h-64 w-auto object-contain mb-2"
               />
