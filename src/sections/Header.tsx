@@ -4,8 +4,8 @@ import { Menu, X, Phone, Mail, Instagram, MessageCircle } from 'lucide-react';
 
 const navItems = [
   { label: 'Inicio', href: '#inicio' },
-  { 
-    label: 'Servicios', 
+  {
+    label: 'Servicios',
     href: '#servicios',
     submenu: [
       { label: 'Seguridad Física', href: '#seguridad-fisica' },
@@ -70,24 +70,25 @@ export default function Header() {
   return (
     <header
       ref={headerRef}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
           ? 'bg-black/95 backdrop-blur-xl border-b border-white/5 py-3'
           : 'bg-transparent py-5'
-      }`}
+        }`}
     >
       <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-16">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div ref={logoRef} className="flex-shrink-0">
-            <a 
-              href="#inicio" 
+            <a
+              href="#inicio"
               onClick={(e) => { e.preventDefault(); scrollToSection('#inicio'); }}
               className="block"
             >
-              <h1 className="text-2xl sm:text-3xl font-bold tracking-wider" style={{ fontFamily: 'Orbitron, sans-serif' }}>
-                <span className="text-white">ELEVEN</span>
-              </h1>
+              <img
+                src="https://lh3.googleusercontent.com/u/0/d/1laV3lnuQJhClF0DTSRVoZIvWuMcpn3uL=w400"
+                alt="Eleven Seguridad"
+                className="h-8 sm:h-10 w-auto object-contain"
+              />
             </a>
           </div>
 

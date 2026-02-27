@@ -103,16 +103,15 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row items-center justify-between mb-12 pb-12 border-b border-white/10">
           {/* Logo */}
           <div className="footer-logo mb-8 lg:mb-0">
-            <a 
+            <a
               href="#inicio"
               onClick={(e) => { e.preventDefault(); scrollToSection('#inicio'); }}
             >
-              <h2 
-                className="text-3xl font-bold text-white"
-                style={{ fontFamily: 'Orbitron, sans-serif' }}
-              >
-                ELEVEN
-              </h2>
+              <img
+                src="https://lh3.googleusercontent.com/u/0/d/1laV3lnuQJhClF0DTSRVoZIvWuMcpn3uL=w400"
+                alt="Eleven Seguridad"
+                className="h-12 w-auto object-contain mb-2"
+              />
               <p className="text-gray-500 text-sm mt-1">Seguridad y Protección</p>
             </a>
           </div>
@@ -182,7 +181,7 @@ export default function Footer() {
           <p className="text-gray-600 text-sm mb-4 md:mb-0">
             Copyright © 2025 Eleven Seguridad y Protección
           </p>
-          
+
           <div className="flex items-center space-x-6 text-sm">
             {legalLinks.map((link) => (
               <a
