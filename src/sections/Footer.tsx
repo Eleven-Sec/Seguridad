@@ -110,7 +110,7 @@ export default function Footer() {
               <img
                 src="https://lh3.googleusercontent.com/u/0/d/1laV3lnuQJhClF0DTSRVoZIvWuMcpn3uL=w400"
                 alt="Eleven Seguridad"
-                className="h-40 w-auto object-contain mb-2"
+                className="h-64 w-auto object-contain mb-2"
               />
               <p className="text-gray-500 text-sm mt-1">Seguridad y Protección</p>
             </a>
